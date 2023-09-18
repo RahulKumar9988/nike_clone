@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.nav1
+{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+     
+}
+
+.left img
+{
+    margin-left: 50px;
+    height: 20px;
+    width:20px;
+}
+.right
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 1055px;
+    
+    
+}
+.right a
+{
+    color: #000000;
+    text-decoration: none;
+   
+
+}
+
+
+.right a:hover
+{
+    color: #8a8a8a;
+}
+
+.nav2
+{
+    width: auto;
+    height:8%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+
+}
+
+.start img
+{
+    height: 100%;
+    width:25%;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.center 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 25px;
+    
+
+}
+
+.center a
+{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+   
+    
+}
+
+.end 
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 40px;
+    gap: 30px;
+    
+}
+
+.New
+{
+    display: flex;
+    border-radius: 50px;
+    width: 170px;
+    height: 40px;
+    background-color: #f6f6f6;
+    align-items: center;
+    color: #3c3c3c60;
+    gap:10px;
+    border-style: hidden;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.body
+{
+    width: 100%;
+    height: auto;
+}
+
+.body img{
+    background-size:cover; 
+    width: 95%;
+    margin-left: 40px;
+    margin-right: 20px;
+    
+   
+}
+
+.content
+{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first p
+{
+    color: #000000;
+
+}
+
+.main p 
+{
+    color: #000000;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.para p
+{
+    color: #000000;
+    
+}
+
+.button
+{
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    height: 35px;   
+    width: 100px;
+    font-weight: 700;
+    border: transparent;
+}
+
+.content2
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+    justify-content: center;
+}
+
+h6
+{
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 40px;
+}
+.content2 video
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content3
+{   
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.content3 h1
+{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -0.1em;
+
+}
+
+.low
+{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+    width: 85px;
+    height: 40px;
+    border: transparent;
+    font-weight: 600;
+
+}
+
+.content4
+{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    
+}
+
+.left1 img
+{
+   
+    width: 700px;
+    height: 95vh;
+    margin-left: 40px;
+    
+
+}
+
+.right1 img
+{
+   
+    width: 700px;
+    height: 95vh;
+    
+}
+h5{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 40px;
+    
+}
+
+.content5
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content5 video
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content6
+{   
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content6 h1
+{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -0.1em;
+
+}
+
+.A 
+{
+    margin-top: 80px;
+}
+.content7
+{
+    margin-top: 20px;
+    display: flex;
+    width: auto;
+    height: 100%;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.content8
+{
+    margin-top: 20px;
+    width: auto;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 35px;
+}
+
+
+.content8 img
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.content9
+{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.jord p
+{
+    color: #000000;
+
+}
+
+.lower p 
+{
+    color: #000000;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: -0.09em;
+}
+
+.mods p
+{
+    color: #000000;
+    text-align-last:center;
+}
+
+.ess    
+{
+     margin-top: 60px;
+}
+.content10
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 80%;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content10 img
+{
+    width: 33%;
+    height: 100%;
+
+}
+
+.footer
+{
+    margin-top: 50px;
+    gap: 80px;
+    background-color: #000000;
+    height: 50%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.box1 
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.box1 h2
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+
+.box2 
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.box2 h2
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.small h2
+{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 33px;   
+    color: rgb(115, 115, 115);
+}
+
+
+.box3 
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.box3 h2
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.small h2
+{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 33px;   
+    color: rgb(115, 115, 115);
+}
+
+.box4 
+{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    flex-direction: row ;
+    background-color: #121212;
+    gap: 10px;
+}
+
+
+ 
